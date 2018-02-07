@@ -1,0 +1,45 @@
+body{
+  background-color: beige;
+  color: rgb(7, 3, 3);
+  
+  font-family: "lato", sans-serif;
+  margin-top: 20px;
+  margin-left: 10px;
+  padding: 20px;
+}
+  /* 
+  @keyframes color {
+    0% {
+      background-color: #222;
+    }
+    50% {
+      background-color: #4285f4;
+    }
+    100 {
+      background-color: #222;
+    }
+  } */
+
+.container{
+  width: 65%;
+}
+
+.table{
+  width:95%;
+  margin-left: 2%;
+}
+th{
+ font-weight:bold;
+}
+
+input[type="text"],input[type="number"]{
+  width: 100%;
+  margin-bottom: 10px;
+
+}
+
+.panel > .panel-heading, .jumbotron, #addTrain{  background-color: rgba(128, 73, 41, 0.788); color:beige;}
+
+#addTrain{
+width: 10%;
+}
